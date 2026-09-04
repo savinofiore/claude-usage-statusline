@@ -2,8 +2,6 @@
 
 A [Claude Code](https://claude.com/claude-code) plugin: a single-file, dependency-free status line showing model, context usage, 5-hour and weekly rate-limit windows, token count and session cost — all on one line.
 
-![demo](demo.png)
-
 ```
 Sonnet 5  ctx [            ]  0%   5h [██████      ] 26%  3h28m   weekly [████████    ] 44%  16h28m   0 tok  $0.00
 ```
