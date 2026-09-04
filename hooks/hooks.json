@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/wire_statusline.py\"",
+            "timeout": 5,
+            "statusMessage": "Wiring usage statusline..."
+          }
+        ]
+      }
+    ]
+  }
+}

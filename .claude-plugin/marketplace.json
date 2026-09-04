@@ -1,0 +1,30 @@
+{
+  "name": "claude-usage-statusline",
+  "owner": {
+    "name": "Savino Fiore",
+    "url": "https://github.com/savinofiore"
+  },
+  "metadata": {
+    "description": "Dependency-free statusline for Claude Code: model, context usage, 5h/weekly rate limits, tokens, cost.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "claude-usage-statusline",
+      "source": "./",
+      "description": "Auto-wires a one-line statusline badge (model, context %, 5h/weekly rate limits, tokens, cost) into your Claude Code settings on session start.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Savino Fiore"
+      },
+      "homepage": "https://github.com/savinofiore/claude-usage-statusline",
+      "license": "MIT",
+      "keywords": [
+        "statusline",
+        "usage",
+        "cost",
+        "monitoring"
+      ]
+    }
+  ]
+}
